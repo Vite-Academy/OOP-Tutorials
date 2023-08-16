@@ -1,6 +1,7 @@
 # https://ark.intel.com/content/www/us/en/ark.html#@PanelLabel122139
 
-class Processor:
+from product import Product
+class Processor(Product):
 
     # Class attribute
     species = "Last generation"
