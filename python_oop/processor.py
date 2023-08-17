@@ -6,7 +6,8 @@ class Processor(Product):
     # Class attribute
     species = "Last generation"
 
-    def __init__(self, company_name:str, panel_label:str, generation:str) -> None:
+    def __init__(self, name:str, company_name:str, panel_label:str, generation:str) -> None:
+        self._name = name
         self._company_name = company_name
         self._panel_label = panel_label
         self._generation = generation

@@ -11,9 +11,11 @@ class Product:
 
         self._name = name
         self._company_name = company_name
+
     
     def __str__(self) -> str:
         return f"Product({self._name}, {self._company_name})"
+    
     
     def __repr__(self) -> str:
         return f"Product({self._name}, {self._company_name})"
