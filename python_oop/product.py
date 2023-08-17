@@ -14,6 +14,9 @@ class Product:
     
     def __str__(self) -> str:
         return f"Product({self._name}, {self._company_name})"
+    
+    def __repr__(self) -> str:
+        return f"Product({self._name}, {self._company_name})"
 
 
     # @staticmethod
@@ -32,7 +35,8 @@ class Product:
 # print(Product.goal) # Production of new products
 
 
-product = Product("Product name", "Company name")
+# product = Product("Product name", "Company name")
+
 # print(product.get_name())
 # print(product.get_company_name())
 
@@ -41,3 +45,9 @@ product = Product("Product name", "Company name")
 # print(product) # <__main__.Product object at 0x7f84789a6490>
 # With __str__ method
 # print(product) # Product(Product name, Company name)
+
+
+# print(product) # Product(Product name, Company name)
+# print(repr(product)) # Product(Product name, Company name)
+# print(type(product)) # <class '__main__.Product'>
+# print(type(repr(product))) # <class 'str'>
