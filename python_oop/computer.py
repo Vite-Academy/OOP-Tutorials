@@ -13,6 +13,7 @@ class Computer(Product):
     #     return f"Computer({self._name}, {self._company_name})" # Computer(Aspire 3 Intel, Acer)
 
     # def get_computer_info(self) -> str:
+    
     #     return f"{self._company_name}, {self._name}" # Acer, Aspire 3 Intel
 
     def get_os_name(self) -> str:

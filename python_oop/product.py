@@ -37,11 +37,12 @@ class Product:
 # print(Product.goal) # Production of new products
 
 
-# product = Product("Product name", "Company name")
+product = Product("Product name", "Company name")
 
-# print(product.get_name())
+print(product.get_name())
 # print(product.get_company_name())
 
+print(product._name)
 
 # Without __str__ method
 # print(product) # <__main__.Product object at 0x7f84789a6490>

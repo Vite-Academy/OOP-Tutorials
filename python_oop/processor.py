@@ -21,10 +21,10 @@ intel_core_i5 = Processor("Intel® Core™ i5-1334U Processor","Intel","Core i5"
 intel_core_i7 = Processor("Intel® Core™ i7-1355U Processor","Intel","Core i7", "12th")
 intel_core_i9 = Processor("Intel® Core™ i9-13900KS Processor","Intel","Core i9", "13th")
 
-# print(intel_core_i3) # <__main__.Processor object at 0x7fe2b4e42410>
-# print(intel_core_i5) # <__main__.Processor object at 0x7fe2b4e42450>
-# print(intel_core_i7) # <__main__.Processor object at 0x7fe2b4e42490>
-# print(intel_core_i9) # <__main__.Processor object at 0x7fe2b4e424d0>
+print(intel_core_i3) # <__main__.Processor object at 0x7fe2b4e42410>
+print(intel_core_i5) # <__main__.Processor object at 0x7fe2b4e42450>
+print(intel_core_i7) # <__main__.Processor object at 0x7fe2b4e42490>
+print(intel_core_i9) # <__main__.Processor object at 0x7fe2b4e424d0>
 
 
 # print(id(intel_core_i3)) # 140007546971216
